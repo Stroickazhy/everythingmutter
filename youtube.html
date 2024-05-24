@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fake YouTube</title>
+    <style>
+      .thumbnail {
+        width: 300px;
+        height: 168.328px;
+        display: block;
+        object-fit:cover;
+      }
+
+      .search-bar {
+        display: block;
+      }
+
+      .video-title {
+        width: 300px;
+      }
+
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+
+      .channel-picture {
+        display: inline-block;
+      }
+
+      .video-info {
+        display: inline-block;
+      }
+      
+    </style> 
+  </head>
+  <body>
+    <input class='search-bar' type = 'text' placeholder="Search"> 
+    <div class="video-preview">
+      <div>
+        <img class = 'thumbnail' src = 'thumbnails/thumbnail-1.webp'> 
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-1.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views &#183; 6 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div>
+        <img class = 'thumbnail' src = 'thumbnails/thumbnail-2.jpg'> 
+      </div>
+      <div>
+        <img src="channel-pictures/">
+        <p class="video-title">
+          How Did I become a YouTuber? #Q&A
+        </p>
+        <p class="video-author">
+          Little Sunshine
+        </p>
+        <p class="video-stats">
+          19M views &#183; 1 year ago
+        </p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
